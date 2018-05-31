@@ -1,0 +1,85 @@
+---
+layout: default
+id: overview
+nav: true
+nav-order: 1
+title: Overview
+
+intro: >
+  <p class="text--lg">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper.</p>
+
+nav-sections:
+  - id: one
+    title: Section One
+  - id: two
+    title: Section Two
+  - id: three
+    title: Section Three
+  - id: four
+    title: Section Four
+
+sections:
+
+  - id: one
+    title: Section one
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+
+  - id: two
+    title: Section Two
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+
+  - id: three
+    title: Section Three
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+
+  - id: four
+    title: Section Four
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+
+---
+
+
+<div class="">
+  <div class="container container--xxl vpad--xxxl text--center">
+    {{page.intro}}
+  </div>
+  {% include nav/sections.html %}
+</div>
+
+
+<!-- loops through section file for page content -->
+{% for section in page.sections %}
+  <div id="{{section.id}}" class="js-nav-section vpad--xxxxl {% cycle 'bg--white', 'bg--light' %}">
+    <div class="container">
+
+      <div class="row row--valign-center row--gutters-lg row--6-6">
+        <div class="col">
+          <div class="title title--xxl">{{section.title}}</div>
+          <p>{{section.description}}</p>
+        </div>
+        <div class="col">
+          <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/img.jpg');"></div>
+        </div>
+      </div>
+
+      <div class="space--xxl"></div>
+
+      <div class="bg--grey text--center boxpad--xl">
+        <div class="title title--xs">{{section.pois.title}}</div>
+        <div class="space--sm"></div>
+        <div class="row row--constant-6-6 row--lg-4-4-4 row--xxxl-2-2-2-2-2 row--gutters-sm">
+          {% assign highlights = site.data.highlights | where:"section",section.id %}
+          {% for highlight in highlights %}
+          <div class="col">
+            <div id="tracking-poi-{{highlight.id}}" class="js-open-modal bg-img bg-img--3-2" data-modal-group="section" data-modal-item="{{highlight.id}}" style="background-image: url('{{site.img}}/img.jpg');"></div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+{% endfor %}
+
+
