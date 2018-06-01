@@ -1,60 +1,79 @@
 ---
 layout: default
 id: overview
+title: WOW Air
 nav: true
 nav-order: 1
-title: Overview
 
 intro: >
   <p class="text--lg">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper.</p>
+  <div class="space--sm"></div>
+  <a href="#flights" class="btn btn--partner">View flights</a>
 
 nav-sections:
   - id: one
-    title: Section One
+    title: Natural Wonders
   - id: two
-    title: Section Two
+    title: The Golden Circle
   - id: three
-    title: Section Three
+    title: Reykjavik
   - id: four
-    title: Section Four
+    title: Other European destinations
+  - id: flights
+    title: Getting there
 
 sections:
 
   - id: one
-    title: Section one
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+    title: Natural Wonders
+    description: >
+      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!</p>
+      <p class="text--lg">Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.</p>
 
   - id: two
-    title: Section Two
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+    title: The Golden Circle
+    description: >
+      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!</p>
+      <p class="text--lg">Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.</p>
 
   - id: three
-    title: Section Three
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+    title: Reykjavik
+    description: >
+      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!</p>
+      <p class="text--lg">Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.</p>
 
   - id: four
-    title: Section Four
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+    title: Other European destinations
+    description: >
+      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!</p>
+      <p class="text--lg">Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.</p>
 
 ---
 
 
 <div class="">
-  <div class="container container--xxl vpad--xxxl text--center">
-    {{page.intro}}
+  <div class="container container--xxxl vpad--xxl">
+    <div class="row row--6-6 row--valign-center">
+      <div class="col">
+        {{page.intro}}
+      </div>
+      <div class="col">
+        <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/img.jpg);"></div>
+      </div>
+    </div>
   </div>
-  {% include nav/sections.html %}
 </div>
 
 
 <!-- loops through section file for page content -->
 {% for section in page.sections %}
-  <div id="{{section.id}}" class="js-nav-section vpad--xxxxl {% cycle 'bg--white', 'bg--light' %}">
-    <div class="container">
+  <div class="js-nav-section {% cycle 'bg--grey-lightest', 'bg--white' %}">
+    <div class="wp" id="{{section.id}}"></div>
+    <div class="container vpad--xxxxl">
 
       <div class="row row--valign-center row--gutters-lg row--6-6">
         <div class="col">
-          <div class="title title--xxl">{{section.title}}</div>
+          <h2 class="title title--xl">{{section.title}}</h2>
           <p>{{section.description}}</p>
         </div>
         <div class="col">
@@ -64,8 +83,8 @@ sections:
 
       <div class="space--xxl"></div>
 
-      <div class="bg--grey text--center boxpad--xl">
-        <div class="title title--xs">{{section.pois.title}}</div>
+      <div class="boxpad--xl text--center {% cycle 'bg--white', 'bg--grey-lightest' %}">
+        <h4 class="title title--xs text--upper text--wide-kern">Highlights</h4>
         <div class="space--sm"></div>
         <div class="row row--constant-6-6 row--lg-4-4-4 row--xxxl-2-2-2-2-2 row--gutters-sm">
           {% assign highlights = site.data.highlights | where:"section",section.id %}
@@ -83,3 +102,5 @@ sections:
 {% endfor %}
 
 
+
+{% include page/promo-flights.html %}

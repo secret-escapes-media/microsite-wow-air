@@ -1,7 +1,7 @@
 # Site settings
-title: Destination Topic
+title: WOW Air
 client:
-  name: Client Name
+  name: WOW Air
   link: "#client-name"
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
@@ -9,10 +9,10 @@ description: >
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/_templates/destination-topic" # the subpath of your site, e.g. /blog/
-img:     "/_templates/destination-topic/_assets/img"
-css:     "/_templates/destination-topic/_assets/css"
-js:      "/_templates/destination-topic/_assets/js"
+baseurl: "/wow-air" # the subpath of your site, e.g. /blog/
+img:     "/wow-air/_assets/img"
+css:     "/wow-air/_assets/css"
+js:      "/wow-air/_assets/js"
 
 
 # Build settings
