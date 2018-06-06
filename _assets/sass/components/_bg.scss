@@ -10,6 +10,9 @@
   &--grey-darker     { background-color: $grey-darker; }
   &--grey-darkest    { background-color: $grey-darkest; }
 
+  &--partner  { background-color: $partner; }
+  &--partner-dark  { background-color: $partner-dark; }
+
   &--img   { @include background-attributes; }
   &__fixed {
     position: fixed;

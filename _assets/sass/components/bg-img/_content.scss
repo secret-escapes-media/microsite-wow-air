@@ -27,6 +27,24 @@
     text-align: center;
     @include page-padding;
   }
+  &__play {
+    $icon-size: 120px;
+    position: absolute;
+    height: $icon-size;
+    width: $icon-size;
+    top: 50%; left: 50%;
+    margin-top: -$icon-size/2;
+    margin-left: -$icon-size/2;
+    background-image: url('../img/icons/play.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include transition;
+    transform: scale(1);
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
   &__bg-overlay {
     position: absolute;
     top: 0;
@@ -38,4 +56,13 @@
     @include transition;
   }
   &:hover &__bg-overlay { background-color: rgba($black,.6); }
+
+  &--rounded { border-radius: 4px; }
+  &--zoom {
+    @include transition;
+    transform: scale(1);
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
 }

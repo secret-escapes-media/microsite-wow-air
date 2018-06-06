@@ -1,1 +1,15 @@
 // general styles for the project that wouldn't be a reuseable component
+
+.highlight {
+  display: block;
+  border: 1px solid rgba($grey-darkest,0.1);
+}
+
+.flights {
+  &__image {
+    margin-bottom: -60px;
+    @include bp($lg){
+      margin-bottom: -140px;
+    }
+  }
+}

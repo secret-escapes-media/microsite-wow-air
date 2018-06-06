@@ -5,6 +5,7 @@
   // custom content headline
   font-family: $font-title-01;
   line-height: 1.1;
+  color: $grey-darker;
   &--xxxxl  { font-size: $s8; }
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
@@ -28,5 +29,21 @@
     &--xxxs   { font-size: $s1; }
   }
 
+  .text--white & { color: $white; }
+
+}
+
+.banner-title {
+  font-size: $s8;
+  font-family: $font-title-01;
+  line-height: 1.1;
+  font-weight: 900;
+  text-shadow: 6px 6px 0 rgba(84,54,81,0.7);
+  @include bp($lg){
+    font-size: $s9;
+  }
+  @include bp($xxl){
+    font-size: $s11;
+  }
 }
 

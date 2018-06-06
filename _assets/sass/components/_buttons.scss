@@ -44,4 +44,8 @@
   &--partner { background-color: $partner;
     &:hover { background-color: darken($partner,10); }
   }
+  // partner styles
+  &--partner-invert { background-color: rgba($white,0.9); color: $partner;
+    &:hover { background-color: $white; }
+  }
 }
