@@ -37,12 +37,6 @@ function modalOpen(event, modalId){
       $('#modal-video__'+modalItemID).attr('src', 'https://www.youtube.com/embed/' + modalVideoId + '?enablejsapi=1&controls=1&rel=0&showinfo=0&modestbranding=1');
     }
 
-    // update map
-    if( $(event.currentTarget).attr('data-map-url') ){
-      var modalMap = $(event.currentTarget).data('map-url');
-      $('#modal-map__'+modalItemID).attr('src', modalMap);
-    }
-
   } else {
     // QUERY - If modal opened from querystring
     modalItem = '.modal__item--' + modalId;
@@ -79,14 +73,14 @@ function modalClose(event){
     $('.modal__wrap').scrollTop(0);
   }, modalTransition);
 
+  // disable video
+  $('.modal__item.is-open .modal-video__iframe').attr('src','');
+
   // close modal with fade
   $('.js-modal.is-open').fadeOut(modalTransition, function(){
     $(this).removeClass('is-open').removeClass('modal--carousel').addClass('is-closed');
     $('.modal__item.is-open').removeClass('is-open').addClass('is-closed');
   });
-
-  // disable video
-  $('.modal__item.is-open .modal__iframe').attr('src','');
 
 }
 

@@ -1,8 +1,15 @@
 // general styles for the project that wouldn't be a reuseable component
 
 .highlight {
+  @include transition;
   display: block;
   border: 1px solid rgba($grey-darkest,0.1);
+  box-shadow: 0 0 0 0 rgba($grey-darkest,0);
+  transform: scale(1);
+  &:hover {
+    box-shadow: 0 3px 15px 0 rgba($grey-darkest,0.1);
+    transform: scale(1.03);
+  }
 }
 
 .flights {

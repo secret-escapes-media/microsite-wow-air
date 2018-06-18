@@ -4,7 +4,7 @@
 - id: the-blue-lagoon
   title: The Blue Lagoon
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: You won't want to miss the Blue Lagoon, the world's largest and most famous geothermal spa. The steamy hot spring is unbelievably scenic, even by Icelandic standards, thanks to the surrounding beds of lava and the mineral-rich water's eponymous hue – an electric ice blue that appears to glow in the light of the midnight sun. Be sure to make reservations in advance of your visit, and consider slotting in a massage, atop a pool float, or a cocktail at the swim-up bar.
   section: natural
   pages:
     - id: overview
@@ -12,7 +12,7 @@
 - id: northern-lights
   title: Northern Lights
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: From roughly September and October to March and April, the famed Aurora Borealis dances across the sky, neon green, red and blue "streamers" shimmering in the night. It's a truly spectacular sight, but just as exciting as viewing the display is tracking it down. Join a guided tour, or if you're willing to travel outside of the city on your own, such as on a cross-country road trip, consult one of the wintertime Northern Lights forecasting services.
   section: natural
   pages:
     - id: overview
@@ -20,7 +20,7 @@
 - id: reynisfjara-beach
   title: Reynisfjara Beach
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: Down on the South Coast lies Reynisfjara Beach, one of the most striking seashores not just on the island, but on the planet. Take in the volcanic black sands, caves and basalt columns early in the morning or late in the afternoon, and you may be able to miss the tour buses, and pretend you have the place to yourself. As you gape at the exquisite vistas, also take care to follow all guidelines, staying on the marked trails and avoiding heading into the water.
   section: natural
   pages:
     - id: overview
@@ -28,7 +28,7 @@
 - id: whale-watching
   title: Whale watching
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: Humpbacks, orcas, blue whales, sperm whales and minke whales are just a few of the most commonly sighted cetaceans around the Icelandic coast – bountiful herring and krill make the Arctic and North Atlantic waters particularly enticing for these and other majestic marine mammals. April through September is the best time for whale-watching, but if you come off season, Reykjavik boasts an exhibition of life-sized whale models, and there's  a dedicated whale museum in Husavik.
   section: natural
   pages:
     - id: overview
@@ -36,7 +36,7 @@
 - id: the-ring-road
   title: The Ring Road
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: Iceland's Ring Road, or Route 1, connects hiking trails, volcanoes, national parks, geothermal spas, glaciers, lookouts and hundreds of coastal towns and cities. Driving its full 800-mile length is a great way to see the whole country, if you can set aside a good seven or more days to complete the journey in summer, and 10 or more in winter. Spend your nights at hotels and inns, or when the weather's nice, camp out in a tent or camper van.
   section: natural
   pages:
     - id: overview
@@ -50,7 +50,7 @@
 - id: thingvellir-national-park
   title: Thingvellir National Park
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: Thingvellir National Park is known for its history, most of all – "Thingvellir" translates to "the fields of parliament," as this UNESCO World Heritage-protected national park began as a gathering place for Icelandic clan representatives. Of course, being in rural Iceland, it offers plenty of natural beauty, in the form of rocky ravines, gorges and lava fields. Never mind its location, in the rift valley at the intersection of Europe and Asia...
   section: golden
   pages:
     - id: overview
@@ -58,7 +58,7 @@
 - id: geysir-geothermal-area
   title: Geysir Geothermal Area
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: The English word "geyser" originates from the Icelandic word "geysir," meaning "something that gushes," and a geyser that gushes up to 200-odd feet in the air – when active, that is – resides at the center of the Geysir Geothermal Area. This entire park sits upon boiling, bubbling cauldrons, so even if when the geyser is taking some time off, you'll encounter mud vents, steam vents, streams and hot springs on your visit to this second of the Golden Circle sights.
   section: golden
   pages:
     - id: overview
@@ -66,7 +66,7 @@
 - id: gullfoss-waterfall
   title: Gullfoss Waterfall
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: From top to bottom, the two-tiered Gullfoss Waterfall, dating back to the Ice Age, measures more than 100 feet. The glacial waters of this cascade, the largest-volume falls in Europe, then plunge into a crevice of nearly 100 feet, resulting in another iconic Golden Circle vista. On your visit to this third and last of the circle's Big Three, also be sure to visit the memorial to activist Sigridur Tomasdottir, who saved the waterfall from development.
   section: golden
   pages:
     - id: overview
@@ -74,8 +74,7 @@
 - id: friheimar
   title: Friðheimar
   highlight: true
-  content: >
-    The theme of Friðheimar cuisine is tomatoes, in many different forms. And that’s not surprising, as four different varieties of tomato are cultivated in the greenhouses where lunch is served among the plants. A rare food experience. Come and enjoy it!”. You have to make reservations in advance.
+  content: When you're in need of some fuel between stops on the Golden Circle, look no further than Friðheimar, where 18% of the tomatoes in Iceland – that's roughly 370 tons per year – are grown in the greenhouses of a working farm. At its Condé Nast Traveler-endorsed, tomato-themed signature restaurant, you can lunch among the tomato stalks, sampling tomato-basil tortillas, tomato soup and even tomato ice cream, before purchasing a jar of tomato sauce or chutney as a souvenir.
   section: golden
   pages:
     - id: overview
@@ -83,7 +82,7 @@
 - id: fluir
   title: Secret Lagoon, Flúðir
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: The Golden Circle holds a scattering of lesser-known spots, along with the "Big Three," and one of these is the steamy secret geothermal lagoon in the village of Fludir, featuring Iceland's oldest swimming pool. Bathe in waters that hover around 100 degrees Fahrenheit year-round, and watch a small geyser erupt every five or so minutes – if you swing by at the right time of winter, you may even catch a sighting of those elusive Northern Lights.
   section: golden
   pages:
     - id: overview
@@ -94,10 +93,10 @@
 
 
 
-- id: neighborhoods
-  title: Neighborhoods
+- id: landmarks
+  title: Landmarks
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: Reykjavik has no shortage of impressive cultural and natural landmarks, from Guðjón Samúelsson's glacier-inspired Hallgrímskirkja cathedral, offering panoramic city views, to Harpa concert hall, hosting some of Iceland's most celebrated musicians. Dine and sightsee at Perlan restaurant, which starts spinning after 9pm, for 360-degree city views, or learn about Höfði, where the Cold War ended. A short boat ride from downtown will take you to Videy, home to the Imagine Peace tower.
   section: reykjavik
   pages:
     - id: overview
@@ -105,7 +104,7 @@
 - id: shopping
   title: Shopping
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: Vintage clothes, used books, handmade jewelry – whatever you're after, chances are that it's available at either Laugavegurinn or the Kolaportið weekend flea market. These are two of the most popular shopping destinations in Reykjavik, thanks to the fashion boutiques at the first and the wide variety of stalls at the second. Another draw to the flea market, in particular? The traditional Icelandic delicacies, like dried fish and kleinur pastries.
   section: reykjavik
   pages:
     - id: overview
@@ -113,7 +112,7 @@
 - id: dining-scene
   title: Dining scene
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: Reykjavik's downtown and Harbor area offer a flavor for every foodie, from pizzas at Flatey to pub grub at Sæmundur í Sparifötunum, in a converted biscuit factory, to beers and bites at Bastard Brew & Food. There's also Snaps Bistro-Bar for French cuisine, along with Hlemmur Mathöll – a food hall of 10 excellent vendors, whipping up everything from liquid-nitrogen ice cream to Vietnamese street food to experimental takes on Icelandic favorites.
   section: reykjavik
   pages:
     - id: overview
@@ -121,15 +120,16 @@
 - id: nightlife
   title: Nightlife
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: When the sun goes down – or doesn't, if you're visiting Iceland during midnight-sun season – Reykjavik's nightspots come to life. Swing by Kaldi, Pablo Discobar, Snaps and Port 9 for a drink, and expect to stay out till late, as downtown is regularly packed until four or five in the morning. If you're more of an early bird, use the Appyhour app to find out which small bars, pubs and intimate music venues will be offering happy hours that afternoon.
   section: reykjavik
   pages:
     - id: overview
 
 - id: culture
-  title: Culture and Museums
+  title: Culture and museums
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: >
+    There's plenty to keep you busy in Reykjavik, thanks to an array of world-class art museums: Listasafn Reykjavíkur, the country's largest art museum; Listasafn Íslands, the national gallery; the National Museum; and the modern Reykjavík Art Museum Kjarvalsstaðir. Visiting a few of the swimming pools is another must – try Sundhöll Reykjavíkur, which was only recently renovated. Fit in a visit to the Sun Voyager sculpture or one of the parks and plazas, as well.
   section: reykjavik
   pages:
     - id: overview
@@ -143,7 +143,7 @@
 - id: london
   title: London
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: London's not just the capital of the United Kingdom; to many, it's the European capital of cool, the birthplace of the British New Wave, Beatlemania, punk and countless other cultural (and countercultural) movements. Check out its history museums, tea rooms, department stores, parks, palaces and pubs on your WOW air stopover – and hear about the latest trends in art, architecture, fashion, design and rock 'n roll before the rest of the continent.
   section: other
   pages:
     - id: overview
@@ -151,7 +151,7 @@
 - id: paris
   title: Paris
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: If it's a certain je ne sais quoi that you seek in your European escape, then you can't miss Paris, the radiant Ville Lumière. Whether you're snacking on pain au chocolat, browsing the priceless artworks at the Louvre, strolling through the Tuileries, day-tripping it to Versailles or catching a Belle Epoque-style can-can revue at the Moulin Rouge, you'll fall under the same spell that enchanted residents from Camille Corot to Brigitte Bardot.
   section: other
   pages:
     - id: overview
@@ -159,7 +159,7 @@
 - id: amsterdam
   title: Amsterdam
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: With its row houses, bridges and concentric canals, Amsterdam was practically made for the camera. Hop on a bike to take in the picture-perfect cityscape like a local, or get around on foot, strolling among the Rembrandts at the Rijksmuseum, the gardens of the Vondelpark or the stalls of the Noordemarkt. Don't forget to stop once in a while for a pick-me-up – a cone of patatjes, perhaps, or a crispy Dutch pancake, slathered with apple syrup.
   section: other
   pages:
     - id: overview
@@ -167,7 +167,7 @@
 - id: dublin
   title: Dublin
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: For a rollicking good time, it's hard to beat Dublin, a city of parades and pub crawls. Raise a pint of Guinness at the company's original storehouse, relocate to the Jameson Distillery for a nip of the iconic whiskey, cross the Ha'Penny Bridge over the River Liffey, and fill up on a hearty serving of fish and chips at Leo Burdock. After dark, join the revelers over in the Temple Bar neighborhood for some live music and dancing, plus a pint of hard cider.
   section: other
   pages:
     - id: overview
@@ -175,7 +175,7 @@
 - id: frankfurt
   title: Frankfurt
   highlight: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit!
+  content: Germany's financial capital is also one of its most dynamic destinations. Frankfurt brings together the best of its fellow German cities, combining the multiculturalism of Berlin and Cologne with a bit of traditional German art and architecture – à la Munich – and the innovative, experimental spirit that characterizes Hamburg. It also happens to be a perfect hub for further travel, boasting one of Europe's largest and busiest airports.
   section: other
   pages:
     - id: overview
