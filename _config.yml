@@ -2,10 +2,11 @@
 title: WOW air
 client:
   name: WOW air
-  link: "#client-name"
+  link: "https://wowair.us/flights/our-destinations/reykjavik/?utm_source=secretescapes.com&utm_medium=blog&utm_campaign=secretescapes.com_14june2018"
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
-  Iceland packs an astonishing amount of natural beauty into its roughly 40,000 square miles. The starting price to Iceland is $99.99 one-way and is available from many US departure cities*
+  Fly WOW air to Reykjavik from 12 cities across the U.S., and discover Iceland for yourself. Become the hero of your own unwritten epic or saga as you become acquainted with the colorful capital city, then head into the country and experience the legendary landscape firsthand.
+
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
